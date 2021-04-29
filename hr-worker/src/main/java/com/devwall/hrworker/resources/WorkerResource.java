@@ -49,6 +49,7 @@ public class WorkerResource {
 	@GetMapping(value = "/{id}")
 	public ResponseEntity<Worker> findById(@PathVariable Long id) {
 		
+//		usado para teste
 //		try {
 //			Thread.sleep(3000L);
 //		} catch (InterruptedException e) {
